@@ -1,0 +1,33 @@
+@media(min-width:1200px){
+  
+  [data-anime] {
+    opacity: 0;
+    transition: .3s;
+  }
+  [data-anime="scroll"] {
+    opacity: 0;
+    transition: 0.4s all ease;
+  }
+  
+  [data-anime].animate {
+    opacity: 1;
+    transform: none;
+    transition: transform 1.2s, opacity 1s;
+  }
+
+  
+  [data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+  }
+  
+  [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+  }
+  
+  [data-anime="top"] {
+    transform: translate3d(0, -50px, 0);
+  }
+  
+}
+
+
