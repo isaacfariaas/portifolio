@@ -61,6 +61,7 @@
   margin-bottom: 1.5rem;
 }
 
+
 .conhecimento-header{
   display: flex;
   align-items: center;
@@ -156,6 +157,16 @@
  
 }
 
+@media screen and (max-width: 420px){
+  .principalPhoto{
+    width: 300px;
+    margin-top: 600px;
+  }
+  .nomeempresa{
+    margin-left: 172px;
+  }
+}
+
 
  @media(min-width:1000px){
   .banner h1{
@@ -172,6 +183,7 @@
    -webkit-text-fill-color: transparent; 
    -moz-text-fill-color: transparent;
 }
+
 .principal-file{
   animation: movebanner 3s 0.1s forwards;
     opacity: 0;
